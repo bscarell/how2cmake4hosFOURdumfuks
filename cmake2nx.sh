@@ -1,0 +1,1 @@
+(mkdir switch && echo "switch folder made" && cd switch && echo "moved current directory into switch dir" && cmake .. -DCMAKE_TOOLCHAIN_FILE=/opt/devkitpro/cmake/Switch.cmake && echo "cmake switch generated" && make -j66 && echo "WAHBITCH"; echo "FINISHED :/S";) &
